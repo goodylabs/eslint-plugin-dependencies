@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-dependencies",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "require/import dependency validation",
   "keywords": [
     "eslint",
@@ -14,8 +14,8 @@
     "README.md",
     "*.js"
   ],
-  "author": "Andres Suarez <zertosh@gmail.com>",
-  "repository": "zertosh/eslint-plugin-dependencies",
+  "author": "Andres Suarez <zertosh@gmail.com>, Alexander Pankiv <alexander.pankiv@goodylabs.com>",
+  "repository": "goodylabs/eslint-plugin-dependencies",
   "scripts": {
     "test": "find test -name '*-test.js' -print0 | xargs -n 1 -0 node"
   },
